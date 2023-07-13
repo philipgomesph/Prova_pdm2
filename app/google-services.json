@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238804463404",
+    "project_id": "cooperativaboigordo",
+    "storage_bucket": "cooperativaboigordo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238804463404:android:c8e176a9be9072b6104689",
+        "android_client_info": {
+          "package_name": "com.pdm.cooperativa_boigordo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238804463404-o0cvc7k88f54cq76r5b8gub8g9d6pn63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRaFTFe_NFJW53_7U4gEcNBcLHCOzJfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238804463404-o0cvc7k88f54cq76r5b8gub8g9d6pn63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

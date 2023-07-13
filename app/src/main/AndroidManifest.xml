@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cooperativa_boigordo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fazenda.ViewFazenda.BuscarFazenda"
+            android:exported="false"
+            android:label="@string/title_activity_buscar_fazenda"
+            android:theme="@style/Theme.Cooperativa_boigordo" />
+        <activity
+            android:name=".Fazenda.ViewFazenda.GerenciaFazenda"
+            android:exported="false"
+            android:label="@string/title_activity_gerencia_fazenda"
+            android:theme="@style/Theme.Cooperativa_boigordo" />
+        <activity
+            android:name=".Fazenda.ViewFazenda.InserirFazenda"
+            android:exported="false"
+            android:label="@string/title_activity_inserir_fazenda"
+            android:theme="@style/Theme.Cooperativa_boigordo" />
+        <activity
+            android:name=".Fazenda.ViewFazenda.MenuFazenda"
+            android:exported="false"
+            android:label="@string/title_activity_menu_fazenda"
+            android:theme="@style/Theme.Cooperativa_boigordo" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Cooperativa_boigordo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

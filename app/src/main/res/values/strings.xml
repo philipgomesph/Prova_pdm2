@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cooperativa_boigordo</string>
+    <string name="title_activity_menu_fazenda">MenuFazenda</string>
+    <string name="title_activity_inserir_fazenda">InserirFazenda</string>
+    <string name="title_activity_gerencia_fazenda">GerenciaFazenda</string>
+    <string name="title_activity_buscar_fazenda">BuscarFazenda</string>
+</resources>
